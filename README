@@ -197,3 +197,12 @@ That's it!
 
 Robert Lougher <rob@jamvm.org.uk>
 1st January 2010.
+
+
+
+-------------------------------------------------------------------
+2021-07-01 (aoa) - PocketGo2 build instructions:
+
+./configure --host=mipsel-gcw0-linux-uclibc --with-classpath-install-dir=/usr/local --prefix=/usr/local --enable-shared --enable-int-threading --enable-int-direct --enable-int-caching --enable-int-prefetch --enable-runtime-reloc-checks --enable-tls --enable-dependency-tracking
+
+make
